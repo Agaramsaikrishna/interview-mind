@@ -163,9 +163,9 @@ Summarization: Provides markdown-formatted summary with strengths, weaknesses, a
 5. End of interview: see a detailed summary with average scores, improvement advice, and hiring recommendation
 
 
-##✅ Checklist Review 
+## ✅ Checklist Review 
 
-###🧠 Objective 
+### 🧠 Objective 
 | Requirement                                        | Met? | Notes                                          |
 | -------------------------------------------------- | ---- | ---------------------------------------------- |
 | Simulates a technical interviewer                  | ✅    | Conducts interactive interviews via LLM        |
