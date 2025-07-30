@@ -50,7 +50,7 @@ Add your API configuration like this:
 
 ```
 GROQ_API_KEY="your_groq_api_key_here"
-GROQ_LLAMA_3_8B="llama3-8b-8192"
+GROQ_LLAMA_3_8B="llama-3.1-8b-instant"
 ```
 ### 5. Run the App (Streamlit UI)
 ```
