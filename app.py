@@ -253,7 +253,7 @@ if not st.session_state.interview_started:
     st.subheader("Welcome! Let's get started with your interview.")
 
     with st.form("interview_setup"):
-        raw_topics = st.text_input("Enter topics separated by commas (e.g., Python, Machine Learning, SQL)", key="topics_input")
+        raw_topics = st.text_input("Enter topics separated by commas (e.g., Python, Machine Learning, JavaScript)", key="topics_input")
         rating_input = st.slider("Rate your proficiency", 1, 10, 5, key="rating_input")
 
         submitted = st.form_submit_button("Start Interview")
@@ -302,7 +302,7 @@ elif st.session_state.interview_started:
     if state["questions_asked"]:
         for i, (q, a, ovl) in enumerate(zip(state["questions_asked"], state["answers_given"], state["scores_overall"])):
             st.sidebar.markdown(f"**Q{i+1}:** {q}")
-            st.sidebar.markdown(f"**A{i+1} Score:** {ovl}/10")
+            #st.sidebar.markdown(f"**A{i+1} Score:** {ovl}/10")
             st.sidebar.markdown("---")
     else:
         st.sidebar.info("No questions asked yet.")
@@ -376,4 +376,5 @@ elif st.session_state.interview_started:
             st.rerun()
 
 st.markdown("---")
+st.info(" if answer not sure or i don't something like or answer is incorrect, follow-up with a simpler question ")
 st.info("💡 Tip: Refresh the page to start a new interview at any time.")
