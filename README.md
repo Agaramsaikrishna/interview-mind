@@ -163,9 +163,9 @@ Summarization: Provides markdown-formatted summary with strengths, weaknesses, a
 5. End of interview: see a detailed summary with average scores, improvement advice, and hiring recommendation
 
 
-✅ Checklist Review 
+##✅ Checklist Review 
 
-🧠 Objective 
+###🧠 Objective 
 | Requirement                                        | Met? | Notes                                          |
 | -------------------------------------------------- | ---- | ---------------------------------------------- |
 | Simulates a technical interviewer                  | ✅    | Conducts interactive interviews via LLM        |
@@ -175,7 +175,7 @@ Summarization: Provides markdown-formatted summary with strengths, weaknesses, a
 | Branching logic based on responses                 | ✅    | Follow-up if score < 6, else next question     |
 
 
-⚙️ Requirements 
+### ⚙️ Requirements 
 
 | Component                         | Met? | Notes                                                                          |
 | --------------------------------- | ---- | -----------------------------------------------------------------------------  |
@@ -186,14 +186,14 @@ Summarization: Provides markdown-formatted summary with strengths, weaknesses, a
 | Prompt engineering                | ✅    | Prompts designed for follow-up logic, anti-repetition, and summary formatting |
 
 
-✨ Bonus Features 
+### ✨ Bonus Features 
 | Feature                                   | Met? | Notes                                     |
 | ----------------------------------------- | ---- | ----------------------------------------- |
-| Vector Store                              | ❌    | Not implemented (optional)                |
-| Answer Scoring (accuracy, clarity, depth) | ✅    | Done using LLM rubric and stored in state |
+| Vector Store                              | ❌    | Not implemented (optional)               |
+| Answer Scoring (accuracy, clarity, depth) | ✅    | Done                                     |
 
 
-📦 Deliverables 
+### 📦 Deliverables 
 | Deliverable                   | Met? | Notes                                                                                                     |
 | ----------------------------- | ---- | --------------------------------------------------------------------------------------------------------  |
 | GitHub Repo                   | ✅    | [https://github.com/Agaramsaikrishna/interview-mind](https://github.com/Agaramsaikrishna/interview-mind) |
